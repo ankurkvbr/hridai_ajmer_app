@@ -1,0 +1,38 @@
+h2{color:#9e7231;}
+.accordion {margin:20px auto;width:100%;}
+.accordion .accTrigger {background:#5e3501 url(../img/plus.svg) 97% 9px no-repeat; background-size:35px 35px;padding:15px 50px 15px 15px; cursor:pointer; font-weight:bold;color:#d7bc8f;border:1px #5e3501 solid;font-size:18px;margin-top:10px;border-radius:5px 5px 5px 5px;text-transform:uppercase;}
+.accordion .accTrigger a {display:block;text-decoration:none;outline:0}
+.accordion .accTrigger.active {background:#5e3501 url(../img/minus.svg) 96% 10px no-repeat; background-size:35px 35px;border-radius:5px 5px 0px 0px;}
+.accordDetail {padding:10px 20px; display:none;border:1px #5e3501 solid;background:#fff;border-radius:0px 0px 5px 5px;border-top:0;}
+
+.projectPage {margin:20px auto;width:100%;}
+.projectPage .trigger {background:#5e3501 url(../img/plus.svg) 97% 9px no-repeat; background-size:35px 35px;padding:15px 50px 15px 15px; cursor:pointer; font-weight:bold;color:#d7bc8f;border:1px #5e3501 solid;font-size:18px;margin-top:10px;border-radius:5px 5px 5px 5px;text-transform:uppercase;}
+.projectPage .trigger a {display:block;text-decoration:none;outline:0}
+.projectPage .trigger.active {background:#5e3501 url(../img/minus.svg) 96% 10px no-repeat; background-size:35px 35px;border-radius:5px 5px 0px 0px;}
+.proDetail {padding:10px 20px; display:none;border:1px #5e3501 solid;background:#fff;border-radius:0px 0px 5px 5px;border-top:0;}
+.marker{background-color:#ff0;}
+
+
+.accordion1 {margin:20px auto;width:100%;}
+.accordion1 .accTrigger1 {background:url(../img/plus.png) right 12px no-repeat;padding:15px 30px 15px 65px;font-weight:bold;color:#5e3501;border-bottom:1px #5e3501 dashed;font-size:18px;margin-top:10px;text-transform:uppercase;}
+.accordion1 .accTrigger1.byBus {background:url(../img/bus.svg) 13px 10px no-repeat; background-size:35px 35px;}
+.accordion1 .accTrigger1.byTrain {background:url(../img/train.svg) 13px 10px no-repeat; background-size:35px 35px;}
+.accordion1 .accTrigger1.byAir {background:url(../img/air.svg) 13px 10px no-repeat; background-size:35px 35px;}
+.accordion1 .accTrigger1 a {display:block;text-decoration:none;outline:0}
+.accordion1 .accTrigger1.active {background:#5e3501 url(../img/minus.png) right 14px no-repeat !important;border-radius:5px 5px 0px 0px;}
+.accordDetail1 {padding:5px 0px;background:#fff;border-radius:0px 0px 5px 5px;border-top:0;}
+
+
+
+.responsiveTable, .responsiveTable tr, .responsiveTable td, .responsiveTable td:before { display:block; text-align:left; border:none;	/* Converts a table, table row, table column and table column:before into a block element */ }
+.responsiveTable, .responsiveTable tr, .responsiveTable td:last-child { border-bottom:none; }
+.responsiveTable thead, .responsiveTable tr th { position:absolute;	/* Hides table head but not using display none */ top:-1000em; left:-1000em; }
+.responsiveTable tr { border:1px solid #eeeeee; border-bottom:2px solid #eeeeee;  margin:0 0 20px; }
+.responsiveTable tr td:nth-child(1) { /* first column of the row */ border-left:none;}
+.responsiveTable tr td:last-child { /* last column of the row */ border-right:none; }
+.responsiveTable tr:last-child .td, .responsiveTable td { /* Column in the last row and column */ border-bottom:1px solid #eeeeee; }
+.responsiveTable td:before { /* prints the value of data-label attribute before the column data */ font-weight:bold; padding-right:20px; line-height:27px; color:#174471; content:" "attr(data-label)"";	/* call the attribute value of data-label and adds a string // */ }
+.responsiveTable tbody {display:block;}
+.responsiveTable tr td {padding:5px 15px; width:auto !important;}
+
+

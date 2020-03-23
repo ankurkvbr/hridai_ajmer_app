@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cities4kids.org$
+RewriteRule (.*) http://www.cities4kids.org/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^cities4kids.org$
+RewriteRule ^(.*)$ "http\:\/\/www\.cities4kids\.org\/$1" [R=301,L]
+
